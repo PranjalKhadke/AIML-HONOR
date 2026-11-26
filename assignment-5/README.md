@@ -16,10 +16,8 @@ Implementation of custom Python decorators showcasing parameter inspection, perf
 
 ### Files
 - `decorators.py`: Decorator definitions, decorated functions, and test suite.
-- `assignment5.ipynb`: Fully executed Jupyter notebook with outputs.
 
 ### How to Run
 ```bash
 python decorators.py
 ```
-Or open `assignment5.ipynb` in VS Code or Jupyter Lab.
