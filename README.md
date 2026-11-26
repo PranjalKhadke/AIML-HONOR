@@ -9,7 +9,7 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-**Curated Academic Portfolio for Artificial Intelligence & Machine Learning Honors**  
+**Artificial Intelligence & Machine Learning Honors**  
 Semester III &bull; Department of Computer Science & Engineering  
 
 **Student Name:** [Pranjal Khadke](https://github.com/PranjalKhadke) &nbsp;|&nbsp; 
