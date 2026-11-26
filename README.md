@@ -13,7 +13,7 @@
 Semester III &bull; Department of Computer Science & Engineering  
 
 **Student Name:** [Pranjal Khadke](https://github.com/PranjalKhadke) &nbsp;|&nbsp; 
-**Roll No:** 05 &nbsp;|&nbsp; 
+**Roll No:** 10 &nbsp;|&nbsp; 
 **Email:** [Pranjalckhadke@gmail.com](mailto:Pranjalckhadke@gmail.com)
 
 </div>
@@ -24,11 +24,11 @@ Semester III &bull; Department of Computer Science & Engineering
 
 This repository contains all five laboratory assignments as well as the class practical notebooks for the **AIML Honors** course.
 
-### Class Practical Notebooks (AIML 05)
+### Class Practical Notebooks (AIML 10)
 | Notebook | Topic | Description |
 | :--- | :--- | :--- |
-| **[`AIML 05 Class.ipynb`](./AIML%2005%20Class.ipynb)** | Pandas Practical Lab (Part 1) | DataFrames, custom exceptions (`PandasException`), reshaping (`melt`, `pivot_table`), merging, and aggregations |
-| **[`AIML 05 Class 2.ipynb`](./AIML%2005%20Class%202.ipynb)** | NumPy Practical Lab (Part 2) | Array creation (`ones`, `zeros`), shape inspection, and in-place tensor operations |
+| **[`AIML 10 Class.ipynb`](./AIML%2010%20Class.ipynb)** | Pandas Practical Lab (Part 1) | DataFrames, custom exceptions (`PandasException`), reshaping (`melt`, `pivot_table`), merging, and aggregations |
+| **[`AIML 10 Class 2.ipynb`](./AIML%2010%20Class%202.ipynb)** | NumPy Practical Lab (Part 2) | Array creation (`ones`, `zeros`), shape inspection, and in-place tensor operations |
 
 ---
 
@@ -94,7 +94,7 @@ This repository contains all five laboratory assignments as well as the class pr
 ## Author Credentials
 
 - **Student Name:** Pranjal Khadke
-- **Roll No:** 05
+- **Roll No:** 10
 - **Branch / Course:** AIML Honors &bull; Semester III
 - **Email:** [Pranjalckhadke@gmail.com](mailto:Pranjalckhadke@gmail.com)
 - **GitHub:** [@PranjalKhadke](https://github.com/PranjalKhadke)
