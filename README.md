@@ -22,13 +22,13 @@ Semester III &bull; Department of Computer Science & Engineering
 
 ## Repository Index
 
-This repository contains all five laboratory assignments as well as the September 19 class practical notebooks for the **AIML Honors** course.
+This repository contains all five laboratory assignments as well as the class practical notebooks for the **AIML Honors** course.
 
-### Class Practical Notebooks (19-09)
+### Class Practical Notebooks (AIML 05)
 | Notebook | Topic | Description |
 | :--- | :--- | :--- |
-| **[`AIML 19_9 Class.ipynb`](./AIML%2019_9%20Class.ipynb)** | Pandas Practical Lab | DataFrames, custom exceptions (`PandasException`), reshaping (`melt`, `pivot_table`), merging, and aggregations |
-| **[`AIML 19_9 Class 2.ipynb`](./AIML%2019_9%20Class%202.ipynb)** | NumPy Practical Lab | Array creation (`ones`, `zeros`), shape inspection, and in-place tensor operations |
+| **[`AIML 05 Class.ipynb`](./AIML%2005%20Class.ipynb)** | Pandas Practical Lab (Part 1) | DataFrames, custom exceptions (`PandasException`), reshaping (`melt`, `pivot_table`), merging, and aggregations |
+| **[`AIML 05 Class 2.ipynb`](./AIML%2005%20Class%202.ipynb)** | NumPy Practical Lab (Part 2) | Array creation (`ones`, `zeros`), shape inspection, and in-place tensor operations |
 
 ---
 
