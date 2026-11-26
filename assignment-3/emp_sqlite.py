@@ -1,15 +1,26 @@
 import sqlite3
 import os
 
-DB_NAME = "employee.db"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_NAME = os.path.join(BASE_DIR, "employee.db")
 
 
 def get_connection(db_name=DB_NAME):
-    return sqlite3.connect(db_name)
+    conn = sqlite3.connect(db_name)
+    with conn:
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS employees (
+                emp_id INTEGER PRIMARY KEY,
+                name TEXT NOT NULL,
+                department TEXT NOT NULL,
+                salary REAL NOT NULL CHECK(salary >= 0)
+            )
+        """)
+    return conn
 
 
 def init_db(db_name=DB_NAME):
-    with get_connection(db_name) as conn:
+    with sqlite3.connect(db_name) as conn:
         cursor = conn.cursor()
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS employees (

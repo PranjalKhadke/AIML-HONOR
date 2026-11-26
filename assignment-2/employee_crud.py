@@ -1,7 +1,8 @@
 import csv
 import os
 
-CSV_FILE = "employee.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CSV_FILE = os.path.join(BASE_DIR, "employee.csv")
 HEADERS = ["emp_id", "name", "dept", "salary"]
 
 
@@ -14,7 +15,7 @@ def init_file(filepath=CSV_FILE):
 
 def get_all_rows(filepath=CSV_FILE):
     if not os.path.exists(filepath):
-        return []
+        init_file(filepath)
     with open(filepath, mode="r", newline="", encoding="utf-8") as f:
         reader = csv.reader(f)
         rows = list(reader)

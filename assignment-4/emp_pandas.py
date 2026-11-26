@@ -1,7 +1,8 @@
 import os
 import pandas as pd
 
-CSV_PATH = "employee.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CSV_PATH = os.path.join(BASE_DIR, "employee.csv")
 COLUMNS = ["emp_id", "name", "department", "experience_yrs", "salary"]
 
 
