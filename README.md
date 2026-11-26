@@ -1,37 +1,50 @@
-# AIML Honors &bull; Lab Assignments
+# AIML Honors &bull; Lab Portfolio & Class Practicals
 
 <div align="center">
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458.svg)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243.svg)](https://numpy.org/)
 [![SQLite](https://img.shields.io/badge/SQLite-3-003B57.svg)](https://www.sqlite.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-**Curated Lab Portfolio for Artificial Intelligence & Machine Learning Honors**  
+**Curated Academic Portfolio for Artificial Intelligence & Machine Learning Honors**  
 Semester III &bull; Department of Computer Science & Engineering  
 
-**Author:** [Pranjal Khadke](https://github.com/PranjalKhadke) &nbsp;|&nbsp; **Email:** [Pranjalckhadke@gmail.com](mailto:Pranjalckhadke@gmail.com)
+**Student Name:** [Pranjal Khadke](https://github.com/PranjalKhadke) &nbsp;|&nbsp; 
+**Roll No:** 05 &nbsp;|&nbsp; 
+**Email:** [Pranjalckhadke@gmail.com](mailto:Pranjalckhadke@gmail.com)
 
 </div>
 
 ---
 
-## Repository Overview
+## Repository Index
 
-This repository contains clean, modular, and fully executed implementations of all five academic laboratory assignments for the **AIML Honors** course. Each assignment directory includes both standalone, executable Python scripts with interactive CLI interfaces and pre-rendered Jupyter Notebooks (`.ipynb`) with consecutive execution indices.
+This repository contains all five laboratory assignments as well as the September 19 class practical notebooks for the **AIML Honors** course.
 
-| Directory | Title | Core Concepts | Key Modules |
-| :--- | :--- | :--- | :--- |
-| **`assignment -1/`** | Multi-Gateway Payment Processing Engine | Factory Pattern, Polymorphism, Data Abstraction | `abc`, `random` |
-| **`assignment-2/`** | Employee Record Management (CSV) | Flat-file I/O, CRUD Operations, PK Enforcement | `csv`, `os` |
-| **`assignment-3/`** | Relational Database Management (SQLite) | ACID Transactions, Parameterized SQL, DDL/DML, GROUP BY | `sqlite3` |
-| **`assignment-4/`** | Workforce Data Analytics (Pandas) | Vectorization, Boolean Masking, Descriptive Statistics, GroupBy | `pandas` |
-| **`assignment-5/`** | Python Function Decorators | First-Class Functions, Lexical Closures, Benchmarking, Stacking | `functools`, `time` |
+### Class Practical Notebooks (19-09)
+| Notebook | Topic | Description |
+| :--- | :--- | :--- |
+| **[`AIML 19_9 Class.ipynb`](./AIML%2019_9%20Class.ipynb)** | Pandas Practical Lab | DataFrames, custom exceptions (`PandasException`), reshaping (`melt`, `pivot_table`), merging, and aggregations |
+| **[`AIML 19_9 Class 2.ipynb`](./AIML%2019_9%20Class%202.ipynb)** | NumPy Practical Lab | Array creation (`ones`, `zeros`), shape inspection, and in-place tensor operations |
 
 ---
 
-## Detailed Directory Breakdown
+### Graded Academic Assignments (1 to 5)
+
+| Directory | Title | Core Concepts | Key Modules |
+| :--- | :--- | :--- | :--- |
+| **[`assignment -1/`](./assignment%20-1)** | Multi-Gateway Payment Processing Engine | Factory Pattern, Polymorphism, Data Abstraction | `abc`, `random` |
+| **[`assignment-2/`](./assignment-2)** | Employee Record Management (CSV) | Flat-file I/O, CRUD Operations, PK Enforcement | `csv`, `os` |
+| **[`assignment-3/`](./assignment-3)** | Relational Database Management (SQLite) | ACID Transactions, Parameterized SQL, DDL/DML, GROUP BY | `sqlite3` |
+| **[`assignment-4/`](./assignment-4)** | Workforce Data Analytics (Pandas) | Vectorization, Boolean Masking, Descriptive Statistics, GroupBy | `pandas` |
+| **[`assignment-5/`](./assignment-5)** | Python Function Decorators | First-Class Functions, Lexical Closures, Benchmarking, Stacking | `functools`, `time` |
+
+---
+
+## Assignment Summaries
 
 ### 1. [Assignment 1: Multi-Gateway Payment Engine](./assignment%20-1)
 - **Objective:** Design an extensible transaction authorization and billing simulator.
@@ -78,23 +91,10 @@ This repository contains clean, modular, and fully executed implementations of a
 
 ---
 
-## Requirements & Environment Setup
+## Author Credentials
 
-All assignments run cleanly on Python 3.10+ with minimal dependencies:
-
-```bash
-# Clone repository
-git clone https://github.com/PranjalKhadke/AIML-HONOR.git
-cd AIML-HONOR
-
-# (Optional) Install pandas for Assignment 4
-pip install pandas jupyter
-```
-
----
-
-## Author
-
-- **Name:** Pranjal Khadke
+- **Student Name:** Pranjal Khadke
+- **Roll No:** 05
+- **Branch / Course:** AIML Honors &bull; Semester III
 - **Email:** [Pranjalckhadke@gmail.com](mailto:Pranjalckhadke@gmail.com)
 - **GitHub:** [@PranjalKhadke](https://github.com/PranjalKhadke)
